@@ -141,7 +141,7 @@ class IncidenciasBloc extends Bloc<incidentViewEvent, IncidentViewState> {
             isLoading: false, isPhotoVer: true, indexPhoto: _contadorFotos);
       }
     } else if (event is cargarMapa) {
-      final kGoogleApiKey = "AIzaSyC8AGcAapuVKTzwJiyrfP1G2-c_xRbzbCQ";
+      final kGoogleApiKey = "";
       yield state.copyWith(isLoadingMapa: true);
       final al_QudsLocation;
       final WindowsMapController mapController;
